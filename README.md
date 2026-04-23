@@ -1,11 +1,10 @@
-**NYC Green Taxi Demand Analysis**
+#**NYC Green Taxi Demand Analysis**
 
 Capstone Project Module 2 — JCDS Purwadhika  
 Oleh: Muhammad Mirza Asyrafi  
-
-**Tantangan Operasional di Industri Taksi NYC**
-
-Setiap hari, ribuan pengemudi taksi harus memutuskan di mana mereka akan beroperasi dan kapan mereka akan bekerja untuk memaksimalkan penghasilan. Sementara itu, TLC dan operator fleet taksi dihadapkan dengan tantangan logistik yang kompleks:  
+### Latar Belakang
+**Tantangan Operasional di Industri Taksi NYC**  
+Setiap hari, ribuan pengemudi taksi harus memutuskan di mana mereka akan beroperasi dan kapan mereka akan bekerja untuk memaksimalkan penghasilan. Sementara itu, TLC dan operator fleet taksi dihadapkan dengan tantangan logistik yang kompleks:   
 
 * **Ketidakseimbangan armada:**  
 Pengemudi sering menumpuk di area dengan demand tinggi (seperti pusat kota atau area komersial), sementara area perumahan atau pinggiran kota kekurangan armada saat demand tinggi.  
@@ -28,21 +27,21 @@ Pengemudi yang tidak berada di lokasi dengan demand tinggi akan memiliki pendapa
 * membantu driver membuat keputusan lebih baik tentang di mana dan kapan beroperasi untuk memaksimalkan penghasilan.  
 * mencari peluang pertumbuhan di area yang underserved atau waktu dengan potential tinggi.  
   
-**Bussines Understanding :**
+### **Bussines Understanding :**
 Taksi resmi di NYC diatur oleh pihak TLC dan dibagi menjadi dua jenis. Pertama, Yellow Taxi yang fokus beroperasi di pusat Manhattan dan bandara. Kedua, Green Taxi yang diluncurkan pada tahun 2013 khusus untuk melayani area pinggiran (outer boroughs) yang tidak sering diakses oleh taksi kuning.  
   
 Setelah riset lebih jauh,   
 Dikarenakan terdapat kolom dengan nama lpep, maka dapat disimpulkan bahwa    
 Dataset ini berfokus pada Green Taxi.     
 
-**Ringkasan Dataset**
+### **Ringkasan Dataset**
 * Sumber Data: NYC TLC Trip Record Data  
 * Sumber data tambahan = lookup_zone.csv (https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv)
 * Periode: Januari 2023
 * Total data mentah: 68.211 baris (20 kolom)
 * Total data bersih: 59.811 baris (26 kolom, setelah penambahan kolom baru)
 
-**Proses Analisis**
+### **Proses Analisis**
 
 * Analisis ini dikerjakan melalui beberapa tahapan:
 * Memahami struktur awal data dan mengecek anomali.
@@ -51,7 +50,7 @@ Dataset ini berfokus pada Green Taxi.
 * Melakukan uji statistik (Spearman, Mann-Whitney, Kruskal-Wallis) untuk memastikan secara statistik.
 * tahapan EDA dan Memvisualisasikan hasil.
 
-**Temuan Utama**
+### **Temuan Utama**
 * Jam 18:00 adalah waktu paling sibuk, menyumbang hampir 8% dari total tarikan seharian
 * Manhattan mendominasi 60,9% total perjalanan
 * dua zona di East Harlem menyumbang hingga 35% dari total seluruh perjalanan

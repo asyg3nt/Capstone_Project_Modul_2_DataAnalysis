@@ -1,7 +1,9 @@
 # **NYC Green Taxi Demand Analysis**
 
-Capstone Project Module 2 — JCDS Purwadhika  
-Oleh: Muhammad Mirza Asyrafi  
+Capstone Project Module 2 
+Oleh: Muhammad Mirza Asyrafi   
+JCDSAH 025  
+
 ### Latar Belakang
 **Tantangan Operasional di Industri Taksi NYC**  
 Setiap hari, ribuan pengemudi taksi harus memutuskan di mana mereka akan beroperasi dan kapan mereka akan bekerja untuk memaksimalkan penghasilan. Sementara itu, TLC dan operator fleet taksi dihadapkan dengan tantangan logistik yang kompleks:   

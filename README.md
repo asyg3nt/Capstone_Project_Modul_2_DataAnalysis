@@ -1,6 +1,6 @@
 # **NYC Green Taxi Demand Analysis**
 
-Capstone Project Module 2 
+Capstone Project Module 2   
 Oleh: Muhammad Mirza Asyrafi   
 JCDSAH 025  
 
